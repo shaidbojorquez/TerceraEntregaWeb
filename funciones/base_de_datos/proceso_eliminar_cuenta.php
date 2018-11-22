@@ -6,7 +6,7 @@
     $resultado1 = $conexion->query($query1);
     
     if(!$resultado1){
-        header("Location: informacion_perfil.php");
+        header("Location:../../paginas/paginas_usuarios/informacion_perfil.php");
     }
     
     $query2 = "DELETE from usuarios WHERE id_usuario='$id'";
