@@ -10,12 +10,11 @@
     $resultado = $conexion->query($query);
 
     if($resultado){
-        echo "Si se elimino";
-        header("Location:../../paginas/paginas_usuarios/mostrar_perfil.php");
+        echo "Si se eliminó";
+        header("Location:../../paginas/paginas_usuarios/perfil_usuario.php");
     }else{
-        echo "No se elimino"; 
-        header("Location:../../paginas/paginas_usuariosmostrar_perfil.php");
+        echo "No se eliminó"; 
+        header("Location:../../paginas/paginas_usuarios/perfil_usuario.php");
     }
     mysqli_close($conexion);
-
 ?>
