@@ -98,7 +98,7 @@ session_start();
                     </li>
                     <li>
                         <img src="images/Inicio/slider-todo.jpg" alt="que hacer?" title="¿Qué hacer?">
-                        <div class="image-text"><span>Le proporcionamos una lista de lugares que debe conocer sobre <b>Holbox</b>.</span></div>
+                        <div class="image-text"><span>HolaaaaaLe proporcionamos una lista de lugares que debe conocer sobre <b>Holbox</b>.</span></div>
                     </li>
                     <li>
                         <img src="images/Inicio/slide-food2.jpg" alt="comida" title="Comida">
