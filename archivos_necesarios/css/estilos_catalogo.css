@@ -7,6 +7,24 @@
     }
 }
 
+#catalogo {
+    min-height: 373px;
+}
+
+input#buscar {
+    background-color: rgba(17,17,17,0.7);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    width:100%;
+}
+
+input#buscar:hover {
+    background-color: rgba(17,17,17,1);
+}
+
 img{
     width: 100%;
 }
@@ -31,6 +49,7 @@ li{
 }
 .restaurante-filtro{
     border-bottom: solid 1px black;
+    margin-bottom: 10px;
 }
 
 .flex-container{
